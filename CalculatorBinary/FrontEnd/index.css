@@ -22,11 +22,6 @@ header h1 {
 }
 
 
-.box h1 {
-    display: flex;
-    justify-content: center;
-    color: white;
-}
 
 hr {
     border-style: solid;
@@ -45,12 +40,19 @@ hr {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     background-color: rgb(12, 12, 12);
     border-radius: 30px;
-    width: 400px;
-    height: 430px;
+    width: 370px;
+    height: 370px;
 }
 
+.box h1 {
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
 
 .box label{
     margin-top: 10px;
