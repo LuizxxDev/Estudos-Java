@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/img/binary-code.png">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/ceb4b1aaaa.js" crossorigin="anonymous"></script>
+    <title>Calculator Binary</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="/img/binary-code.png" alt="logo">
+        <h1>Calculator</h1>
+    </header>
+    
+    <hr>
+    <div class="container">
+        <div class="box">
+            <h1>Calculator Binary</h1>
+            <label for="decimalInput">DIGITE UM NUMERO DECIMAL</label>
+            <input type="text" id="decimalInput">
+            <div class="opçoes">
+                <button onclick="convertForBinary()">CONVERTER</button>
+                <button onclick="limpar()">LIMPAR</button>
+                <button><i class="fa-solid fa-arrows-rotate fa-lg"></i></button>
+            </div>
+            
+            <label for="box-result">RESULTADO</label>
+            <div class="box-result">
+                <p id="resultado"></p>
+            </div>
+
+        </div>
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>

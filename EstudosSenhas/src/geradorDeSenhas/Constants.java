@@ -1,6 +1,6 @@
 package geradorDeSenhas;
 
-public class Constants {
+final class Constants {
     public static final int MINIMUM_CHARACTER = 8;
     public static final String UPPERCASE_LETTERS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     public static final String LOWERCASE_LETTERS = "abcdefghijklmnopqrstuvwxyz";

@@ -5,7 +5,7 @@ public class Main {
 
         SystemPasswordGenerator teste = new SystemPasswordGenerator();
 
-        System.out.println("Senha Gerada: " + teste.generatePassword(8));
+        System.out.println("Senha Gerada: " + teste.generatePassword(12));
 
     }
 }
