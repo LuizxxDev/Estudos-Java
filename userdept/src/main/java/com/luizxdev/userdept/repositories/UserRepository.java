@@ -6,6 +6,4 @@ import com.luizxdev.userdept.entities.User;
 
 public interface UserRepository extends JpaRepository<User, Long> {
 
-
-
 }

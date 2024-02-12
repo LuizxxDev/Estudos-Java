@@ -14,8 +14,6 @@ import org.springframework.web.bind.annotation.RestController;
 import com.luizxdev.userdept.entities.User;
 import com.luizxdev.userdept.repositories.UserRepository;
 
-
-
 @RestController
 @RequestMapping(value = "/users")
 public class UserController {
@@ -42,6 +40,4 @@ public class UserController {
     public void deletUser(@PathVariable Long id){
         repository.deleteById(id);
     }
-
-
 }
